@@ -38,4 +38,8 @@ Every row uses the same schema so LIST.md and MISSING.md stay diffable:
 
 | Repo | Category | Type | What it does | License | Scanned | Report |
 |------|----------|------|--------------|---------|---------|--------|
-| _(none yet — candidates awaiting scan live in [MISSING.md](MISSING.md))_ | | | | | | |
+| [visa/visa-vulnerability-agentic-harness](https://github.com/visa/visa-vulnerability-agentic-harness) | AI-powered / agentic pentesting | Both | AI agent pipeline that finds, fixes, and verifies software vulnerabilities end-to-end | Apache-2.0 ✓ | 2026-07-04 | maintainer-vetted (seed) |
+| [vercel-labs/deepsec](https://github.com/vercel-labs/deepsec) | AI-powered / agentic pentesting | Both | Security harness that finds vulnerabilities in a codebase powered by coding agents | Apache-2.0 | 2026-07-04 | maintainer-vetted (seed) |
+| [NVIDIA/garak](https://github.com/NVIDIA/garak) | LLM / GenAI red-teaming | Offensive | LLM vulnerability scanner — prompt injection, jailbreaks, hallucination, data leakage | Apache-2.0 ✓ | 2026-07-04 | maintainer-vetted (seed) |
+| [Azure/PyRIT](https://github.com/Azure/PyRIT) | LLM / GenAI red-teaming | Offensive | Framework to proactively identify risks in generative-AI systems | MIT ✓ | 2026-07-04 | maintainer-vetted (seed) |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | LLM / GenAI red-teaming | Both | Evaluate and red-team LLM apps with vulnerability scanning | MIT ✓ | 2026-07-04 | maintainer-vetted (seed) |
