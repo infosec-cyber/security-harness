@@ -1,5 +1,9 @@
 # Security Harness
-Repository of Security Harnesses out there
+Repository of **AI security testing** harnesses out there — tools that use AI to find
+security issues, and tools that test the security of AI/LLM systems.
+
+- [LIST.md](LIST.md) — curated harnesses that have passed a scan
+- [MISSING.md](MISSING.md) — discovered candidates pending scan
 
 ## TASKS
 

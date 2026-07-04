@@ -1,0 +1,42 @@
+================================================================================
+SECURITY_HARNESS_REPORT — template
+================================================================================
+This is the template a repo publishes IN ITS OWN REPO (as SECURITY_HARNESS_REPORT.md)
+to qualify for LIST.md. Copy the block below into your repo, fill it in, link it from
+your README, and add your repo + report link to MISSING.md.
+
+Rules:
+  - Only harnesses APPROVED in LIST.md count. Generic linters/scanners do not qualify.
+  - Code audit: see HOW_TO_SCAN_CODE.md. AI red-team: see HOW_TO_SCAN_SKILLS.md.
+  - A repo with an AI/LLM surface must publish BOTH sections; a repo with no AI surface
+    may publish the CODE AUDIT section alone.
+  - Keep the block format identical so entries stay greppable.
+
+--------------------------------------------------------------------------------
+TEMPLATE (copy into your repo, fill in, delete this header line)
+--------------------------------------------------------------------------------
+REPO       : <owner/repo>
+URL        : https://github.com/<owner/repo>
+COMMIT     : <full git SHA scanned>
+SCAN_DATE  : <YYYY-MM-DD>
+SCANNED_BY : <name / handle>
+
+CODE AUDIT (HOW_TO_SCAN_CODE.md) — approved AI code-auditing harnesses
+  harnesses run : <harness@version>, <harness@version>, ...   (must be from LIST.md)
+  critical      : <count>
+  high          : <count>
+  medium        : <count>
+  low/info      : <count>
+  notes         : <one-line summary; reference finding IDs if any>
+
+AI RED-TEAM (HOW_TO_SCAN_SKILLS.md) — approved LLM red-teaming harnesses
+  ai surface    : <chat / agent / tool-calling / RAG / n-a>
+  harnesses run : <harness@version>, ...                       (must be from LIST.md)
+  key results   : <one line per notable probe result, or "none">
+
+BEST HARNESS : <which approved harness gave the most accurate, actionable signal + why>
+VERDICT      : clean | blocked (<reason>) | needs-recheck (<reason>)
+REPORT LINK  : <public URL of this report in your repo>
+--------------------------------------------------------------------------------
+
+# ---- example / ledger of registered reports (optional mirror of LIST.md) ----
