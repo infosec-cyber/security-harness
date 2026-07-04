@@ -27,8 +27,6 @@ reported by the GitHub API and should be re-confirmed at scan time.
 
 | Repo | Type | What it does | License |
 |------|------|--------------|---------|
-| [visa/visa-vulnerability-agentic-harness](https://github.com/visa/visa-vulnerability-agentic-harness) | Both | AI agent pipeline (11-stage / 4-phase) that finds, fixes, and verifies software vulnerabilities from code intake to a validated fix | Apache-2.0 ✓ |
-| [vercel-labs/deepsec](https://github.com/vercel-labs/deepsec) | Both | Security harness that finds vulnerabilities in your codebase powered by coding agents | Apache-2.0 |
 | [xalgord/xalgorix](https://github.com/xalgord/xalgorix) | Offensive | Autonomous AI pentesting agents | MIT |
 | [usestrix/strix](https://github.com/usestrix/strix) | Both | Open-source AI hackers that autonomously find and validate app vulnerabilities | Apache-2.0 |
 | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | Offensive | LLM-powered agentic framework that guides/automates penetration-testing steps | MIT |
@@ -42,10 +40,7 @@ reported by the GitHub API and should be re-confirmed at scan time.
 
 | Repo | Type | What it does | License |
 |------|------|--------------|---------|
-| [NVIDIA/garak](https://github.com/NVIDIA/garak) | Offensive | LLM vulnerability scanner — probes for prompt injection, jailbreaks, hallucination, data leakage | Apache-2.0 ✓ |
-| [Azure/PyRIT](https://github.com/Azure/PyRIT) | Offensive | Microsoft framework to proactively identify risks in generative-AI systems (automated AI red teaming) | MIT ✓ |
 | [meta-llama/PurpleLlama](https://github.com/meta-llama/PurpleLlama) | Both | Tools + CyberSecEval benchmarks to assess and improve LLM cybersecurity safety | MIT (evals) ✓ |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Both | CLI/library to evaluate and red-team LLM apps with vulnerability scanning | MIT ✓ |
 | [m4xx101/cryptex-oss](https://github.com/m4xx101/cryptex-oss) | Offensive | LLM red-teaming toolkit (transforms, mutators, techniques) | MIT |
 | [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss) | Both | Evaluation & testing library for LLM agents — automated vulnerability detection (bias, injection, hallucination) | Apache-2.0 |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Both | Full-stack AI red-teaming platform: MCP/agent/infra scanning + jailbreak evaluation | MIT |
